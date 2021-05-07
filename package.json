@@ -1,6 +1,6 @@
 {
   "name": "rn-bottom-test",
-  "version": "0.0.4",
+  "version": "0.0.9",
   "description": "This is testing purpose",
   "main": "src/index.tsx",
   "scripts": {
@@ -19,6 +19,11 @@
   ],
   "author": "Rana",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Moonubanna/rn-bottom-test.git"
+  },
+  "homepage": "https://github.com/Moonubanna/rn-bottom-test.git#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
@@ -55,5 +60,11 @@
       "module",
       "typescript"
     ]
+  },
+  "npm": {
+    "publish": true
+  },
+  "github": {
+    "release": true
   }
 }
